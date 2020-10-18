@@ -2,13 +2,11 @@
 
 * Ruby 2.7.0, Rails 6+
 
-* Install yarn and Redis
+* Install yarn (https://classic.yarnpkg.com/en/docs/install/) and Redis
 
-* Configuration: none
+* Configuration: `rails webpacker:install`
 
 * rails db:migrate
-
-* Database initialization
 
 * How to run the test suite
 
