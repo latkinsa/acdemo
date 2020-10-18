@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby 2.7.0, Rails 6+
 
-Things you may want to cover:
+* Install yarn and Redis
 
-* Ruby version
+* Configuration: none
 
-* System dependencies
-
-* Configuration
-
-* Database creation
+* rails db:migrate
 
 * Database initialization
 
 * How to run the test suite
+  rails s
+  # go to localhost:3000
+  # in another shell
+  rails c
+  posts_creator = PostsCreator.new(title: "Sample Title", content: "Sample content")
+  posts_creator.create
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
